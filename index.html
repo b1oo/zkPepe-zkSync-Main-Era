@@ -5,35 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="zkPepe is a meme coin on zkSync, a memecoin on zkSync with no financial promises or formal team.">
     <title>zkPepe.wtf</title>
-    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
     <style>
-    @font-face {
-        font-family: 'Comfortaa';
-        src: url('path/to/font/Comfortaa-Regular.woff2') format('woff2'),
-             url('path/to/font/Comfortaa-Regular.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-
-    body {
-        font-family: 'Comfortaa', Arial, sans-serif;
-    }
+        body {
+            background-color: #00a86b; /* Similar to Pepe green */
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        .menu-link {
+            color: white;
+            text-decoration: none;
+        }
+        #main-content {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+        .image-row, .text-row {
+            margin-top: 20px;
+        }
     </style>
 </head>
-<body class="bg-green-600 text-white">
-    <header class="text-center p-5">
-        <h1 class="text-3xl font-bold">zkPepe.wtf</h1>
+<body>
+    <header>
+        <h1>zkPepe.wtf</h1>
+    </div>
     </header>
-    <div id="main-content" class="text-center p-5">
-        <div class="mb-5">
-            zkPepe on zkSync Main Era
-        </div>
-        <p class="mb-5">CA: <a href="https://explorer.zksync.io/address/0x15D8509E30514Ecd7dB509D1fe7e592355817951" target="_blank" class="underline">0x15D8509E30514Ecd7dB509D1fe7e592355817951</a></p>
-        <div class="mb-5">
-            <img src="zkpepe.jpeg" alt="zkPepe Image" class="max-w-full">
+    <div id="main-content">
+        <p>CA: <a href="https://explorer.zksync.io/address/0x15D8509E30514Ecd7dB509D1fe7e592355817951" target="_blank">0x15D8509E30514Ecd7dB509D1fe7e592355817951</a></p>
+        <div class="image-row">
+            <img src="zkpepe.jpeg" alt="zkPepe Image" style="max-width: 100%;">
         </div>
     </div>
-    <footer class="text-center p-5">
+    <footer>
         <p>zkPepe is an experimental meme on zkSync Main Era that promises no financial return and doesn't have a formal team or roadmap.</p>
     </footer>
 </body>
